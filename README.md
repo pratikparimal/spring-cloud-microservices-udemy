@@ -15,7 +15,7 @@ Basic java microservices concepts from udemy
 
 
 
-Ports:
+# Ports:
 Application	                  Port
 ---------------------------------------------------------
 Limits Service	                  8080, 8081, ...
@@ -27,7 +27,7 @@ Netflix Zuul API Gateway Server	  8765
 Zipkin Distributed Tracing Server 9411
 
 
-URLs:
+# URLs:
 Application					URL
 ---------------------------------------------------------
 Limits Service	                              	http://localhost:8080/limits POST -> http://localhost:8080/actuator/refresh
@@ -41,7 +41,7 @@ Zipkin	                                      	http://localhost:9411/zipkin/
 Spring Cloud Bus Refresh	                http://localhost:8080/bus/refresh
 
 
-Note:
+# Note:
 To Start Zipkin server run below two queries in cmd:
     1. curl -sSL https://zipkin.io/quickstart.sh | bash -s
     2. java -jar zipkin.jar
